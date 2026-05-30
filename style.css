@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    height: 64px;
+    display: flex;
+    justify-content: border-box;
+    align-items: center;
+}
+
+header a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+span {
+    font-size: 19.85px;
+    font-weight: 600;
+    color: #c92971;
+}
