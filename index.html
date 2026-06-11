@@ -1,23 +1,75 @@
 <!doctype html>
-    <html lang="pt-br">
+
+<html lang="pt-br">
     <head>
-        <meta charset="UTF-8" />
-        <meta 
-            name="viewport" 
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
             content="width=device-width, initial-scale=1.0"
         />
-        <title>Loja Digital - Cadastrar</title>
-        <link 
-            rel="stylesheet" 
+        <title>Cadastrar - Loja Digital</title>
+        <link
+            rel="stylesheet"
             href="./style.css"
-       />
+        />
     </head>
     <body>
         <header>
             <a href="#">
-                <img src="./assets/logo.svg" alt="">
+                <img
+                    src="./assets/logo.svg"
+                    alt="logo da loja"
+                />
                 <span>Loja Digital</span>
             </a>
         </header>
+        <main>
+            <form>
+                <div class="title">
+                    <h1>Acesse sua Conta</h1>
+                    <p>Novo cliente? Então registre-se <a href="#">aqui</a>.</p>
+                </div>
+                <div class="inputs">
+                    <div>
+                        <label>Email *</label>
+                        <input
+                            type="email"
+                            placeholder="Insira seu email"
+                        />
+                    </div>
+                    <div>
+                        <label>Senha *</label>
+                        <input
+                            type="password"
+                            placeholder="Insira sua senha"
+                        />
+                    </div>
+                </div>
+                <p><a href="#">Esqueci minha senha</a></p>
+                <button>Acessar Conta</button>
+                <div class="others">
+                    <p>Ou faça login com</p>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img 
+                                    src="./assets/email.svg"
+                                    alt="ícone para acesso com email"
+                                />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img 
+                                    src="./assets/facebook.svg"
+                                    alt="ícone para acesso com facebook"
+                                />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </main>
     </body>
 </html>
+

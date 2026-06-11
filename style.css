@@ -1,25 +1,92 @@
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    color: #000;
     text-decoration: none;
+    font-family: sans-serif;
 }
 
 header {
     height: 64px;
     display: flex;
-    justify-content: border-box;
-    align-items: center;
+    justify-content: center;
+    
+    a {
+        width: 174px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4.36px;
+
+        span {
+            font-size: 19.85px;
+            font-weight: 600;
+            color: #c92071;
+        }
+    }
 }
 
-header a {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
+main {
+    background: linear-gradient(#B5B6F2, #EFEFFF);
+    padding: 63px 30px 80px;
 
-span {
-    font-size: 19.85px;
-    font-weight: 600;
-    color: #c92971;
+    form {
+        background-color: #FFF;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        border-radius: 4px;
+        
+        .title {
+            h1 {
+                font-size: 22px;
+                line-height: 34px;
+                letter-spacing: 2px;
+                text-align: center;
+                color: #1F1F1F;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 24px;
+                letter-spacing: .25px;
+                text-align: center;
+                color: #474747;
+
+                a {
+                    text-decoration: underline;
+                    color: #474747;
+                }
+            }
+        }
+
+        .inputs {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+
+                label {
+                    font-size: 12px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    letter-spacing: .75px;
+                    color: #474747;
+                }
+
+                input {
+                    border: none;
+                    border-radius: 8px;
+                    background-color: #4747470a;
+                    font-size: 16px;
+                    padding: 16px 13px;
+                    line-height: 28px;
+                }
+            }
+        }
+    }
 }
