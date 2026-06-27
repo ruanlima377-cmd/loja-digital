@@ -120,4 +120,7 @@ main {
             }
         }
     }
+    .banner {
+        display: none;
+    }
 }
